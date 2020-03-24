@@ -1,0 +1,106 @@
+03/ 24/ 20 12: 37: 41 PM : WARNING: This is warning
+03/ 24/ 20 12: 37: 41 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/url {"url": "https://www.atg.party/"}
+03/ 24/ 20 12: 37: 50 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/url HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 50 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 50 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/window/maximize {}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/window/maximize HTTP/1.1" 200 50
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: GET http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/title {}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "GET /session/f9ef4cfb145d25023e13d058668c8285/title HTTP/1.1" 200 80
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: GET http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/url {}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "GET /session/f9ef4cfb145d25023e13d058668c8285/url HTTP/1.1" 200 34
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/execute/sync {"script": "return window.performance.timing.navigationStart", "args": []}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/execute/sync HTTP/1.1" 200 23
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/execute/sync {"script": "return window.performance.timing.responseStart", "args": []}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/execute/sync HTTP/1.1" 200 23
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/execute/sync {"script": "return window.performance.timing.domComplete", "args": []}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/execute/sync HTTP/1.1" 200 23
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/execute/async {"script": "\nlet callback = arguments[0];\nlet xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://www.atg.party/', true);\nxhr.onload = function () {\n    if (this.readyState === 4) {\n        callback(this.status);\n    }\n};\nxhr.onerror = function () {\n    callback('error');\n};\nxhr.send(null);\n", "args": []}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/execute/async HTTP/1.1" 200 13
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/timeouts {"implicit": 10000}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/timeouts HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "/html/body/header/div[1]/div[2]/div/ul/li[2]/a"}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/4c82c174-da22-466f-b4f4-96f4e19044e2/click {"id": "4c82c174-da22-466f-b4f4-96f4e19044e2"}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/4c82c174-da22-466f-b4f4-96f4e19044e2/click HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "//*[@id=\"email\"]"}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "//*[@id=\"password\"]"}
+03/ 24/ 20 12: 37: 51 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 51 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 51 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/31a85dae-0bf3-4e3a-95f0-e89ca802cbbe/value {"text": "wiz_saurabh@rediffmail.com ", "value": ["w", "i", "z", "_", "s", "a", "u", "r", "a", "b", "h", "@", "r", "e", "d", "i", "f", "f", "m", "a", "i", "l", ".", "c", "o", "m", " "], "id": "31a85dae-0bf3-4e3a-95f0-e89ca802cbbe"}
+03/ 24/ 20 12: 37: 52 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/31a85dae-0bf3-4e3a-95f0-e89ca802cbbe/value HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 52 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 52 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/29d66582-b5d7-4ebd-8cfb-60807fa8f878/value {"text": "Pass@123", "value": ["P", "a", "s", "s", "@", "1", "2", "3"], "id": "29d66582-b5d7-4ebd-8cfb-60807fa8f878"}
+03/ 24/ 20 12: 37: 52 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/29d66582-b5d7-4ebd-8cfb-60807fa8f878/value HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 52 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 52 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "/html/body/header/div[1]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/form/div[3]/button"}
+03/ 24/ 20 12: 37: 52 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 52 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 52 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/6cf53a83-1026-40cb-a0b9-49a7d708114e/click {"id": "6cf53a83-1026-40cb-a0b9-49a7d708114e"}
+03/ 24/ 20 12: 37: 52 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/6cf53a83-1026-40cb-a0b9-49a7d708114e/click HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 52 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 52 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/timeouts {"implicit": 10000}
+03/ 24/ 20 12: 37: 52 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/timeouts HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 52 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 52 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "/html/body/div[1]/div/button"}
+03/ 24/ 20 12: 37: 59 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 59 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 59 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/19268031-6634-4620-a780-6b85de37d04d/click {"id": "19268031-6634-4620-a780-6b85de37d04d"}
+03/ 24/ 20 12: 37: 59 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/19268031-6634-4620-a780-6b85de37d04d/click HTTP/1.1" 200 14
+03/ 24/ 20 12: 37: 59 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 59 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "css selector", "value": "[id=\"dropdownMenuButton\"]"}
+03/ 24/ 20 12: 37: 59 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 37: 59 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 37: 59 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "44c386c9-c7cd-4ee2-98dc-ded6914720b8"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+03/ 24/ 20 12: 38: 00 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/actions HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 00 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 00 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "link text", "value": "Article"}
+03/ 24/ 20 12: 38: 00 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 38: 00 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 00 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "badb56bc-773b-45f4-a9ad-4a507abdc64b"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+03/ 24/ 20 12: 38: 00 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/actions HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 00 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 00 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/url {"url": "https://www.atg.party/article"}
+03/ 24/ 20 12: 38: 03 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/url HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 03 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 03 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "css selector", "value": "[name=\"profile_pic\"]"}
+03/ 24/ 20 12: 38: 03 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 38: 03 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 03 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/8639bc40-6d1f-4813-8399-372a1cdf44ef/value {"text": "/home/vidhya/PycharmProjects/SeleniumProject/image/img2.jpg", "value": ["/", "h", "o", "m", "e", "/", "v", "i", "d", "h", "y", "a", "/", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "/", "S", "e", "l", "e", "n", "i", "u", "m", "P", "r", "o", "j", "e", "c", "t", "/", "i", "m", "a", "g", "e", "/", "i", "m", "g", "2", ".", "j", "p", "g"], "id": "8639bc40-6d1f-4813-8399-372a1cdf44ef"}
+03/ 24/ 20 12: 38: 03 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/8639bc40-6d1f-4813-8399-372a1cdf44ef/value HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 03 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 03 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "css selector", "value": "[name=\"title\"]"}
+03/ 24/ 20 12: 38: 03 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 38: 03 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 03 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/3ade2a2f-cb92-4548-bce8-d8f9bf54efef/value {"text": "Title For The Project", "value": ["T", "i", "t", "l", "e", " ", "F", "o", "r", " ", "T", "h", "e", " ", "P", "r", "o", "j", "e", "c", "t"], "id": "3ade2a2f-cb92-4548-bce8-d8f9bf54efef"}
+03/ 24/ 20 12: 38: 04 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/3ade2a2f-cb92-4548-bce8-d8f9bf54efef/value HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 04 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 04 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "xpath", "value": "//*[@id=\"form_post_article\"]/div[2]/div[1]/div[3]/div"}
+03/ 24/ 20 12: 38: 04 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 38: 04 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 04 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/4c21629e-84a8-4dd8-b265-5d387b2b5ed2/value {"text": "Content of  the title", "value": ["C", "o", "n", "t", "e", "n", "t", " ", "o", "f", " ", " ", "t", "h", "e", " ", "t", "i", "t", "l", "e"], "id": "4c21629e-84a8-4dd8-b265-5d387b2b5ed2"}
+03/ 24/ 20 12: 38: 04 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/4c21629e-84a8-4dd8-b265-5d387b2b5ed2/value HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 04 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 04 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element {"using": "css selector", "value": "[id=\"featurebutton\"]"}
+03/ 24/ 20 12: 38: 04 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element HTTP/1.1" 200 88
+03/ 24/ 20 12: 38: 04 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 04 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/element/18489496-5e58-4f03-a7f9-be49fe5c147f/click {"id": "18489496-5e58-4f03-a7f9-be49fe5c147f"}
+03/ 24/ 20 12: 38: 20 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/element/18489496-5e58-4f03-a7f9-be49fe5c147f/click HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 20 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 20 PM : DEBUG: GET http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/url {}
+03/ 24/ 20 12: 38: 20 PM : DEBUG: http://127.0.0.1:39679 "GET /session/f9ef4cfb145d25023e13d058668c8285/url HTTP/1.1" 200 81
+03/ 24/ 20 12: 38: 20 PM : DEBUG: Finished Request
+03/ 24/ 20 12: 38: 20 PM : DEBUG: POST http://127.0.0.1:39679/session/f9ef4cfb145d25023e13d058668c8285/execute/sync {"script": "window.scrollBy(0,1000)", "args": [""]}
+03/ 24/ 20 12: 38: 20 PM : DEBUG: http://127.0.0.1:39679 "POST /session/f9ef4cfb145d25023e13d058668c8285/execute/sync HTTP/1.1" 200 14
+03/ 24/ 20 12: 38: 20 PM : DEBUG: Finished Request
